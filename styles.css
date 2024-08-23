@@ -1,0 +1,95 @@
+/* styles.css */
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-image: url("bgi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #007bff;
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input, select, button {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, select:focus, button:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#feeDisplay {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #28a745;
+    font-size: 18px;
+}
+
+.hidden {
+    display: none;
+}
+
+#confirmationMessage {
+    margin-top: 20px;
+}
+
+#confirmationMessage h3 {
+    font-size: 20px;
+    color: #28a745;
+}
+
+#confirmationDetails {
+    font-size: 16px;
+    color: #555;
+}
